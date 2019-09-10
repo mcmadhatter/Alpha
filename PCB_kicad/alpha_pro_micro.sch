@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:alpha_pro_micro-cache
-EELAYER 29 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -48,12 +48,12 @@ F 3 "" H 2700 3900 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K11
+L keebio:MX-with-LED K11
 U 1 1 5A74337B
 P 1200 4400
 F 0 "K11" H 1150 4400 60  0000 C CNN
 F 1 "KEYSW" H 1200 4300 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 1200 4400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 1200 4400 60  0001 C CNN
 F 3 "" H 1200 4400 60  0000 C CNN
 	1    1200 4400
 	-1   0    0    -1  
@@ -81,23 +81,23 @@ F 3 "" H 1750 4650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K12
+L keebio:MX-with-LED K12
 U 1 1 5A74349B
 P 2150 4400
 F 0 "K12" H 2100 4400 60  0000 C CNN
 F 1 "KEYSW" H 2150 4300 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 2150 4400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 2150 4400 60  0001 C CNN
 F 3 "" H 2150 4400 60  0000 C CNN
 	1    2150 4400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K13
+L keebio:MX-with-LED K13
 U 1 1 5A7434FC
 P 3100 4450
 F 0 "K13" H 3050 4450 60  0000 C CNN
 F 1 "KEYSW" H 3100 4350 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 3100 4450 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 3100 4450 60  0001 C CNN
 F 3 "" H 3100 4450 60  0000 C CNN
 	1    3100 4450
 	-1   0    0    -1  
@@ -136,34 +136,34 @@ F 3 "" H 3700 4650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K14
+L keebio:MX-with-LED K14
 U 1 1 5A743D28
 P 4200 4450
 F 0 "K14" H 4150 4450 60  0000 C CNN
 F 1 "KEYSW" H 4200 4350 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 4200 4450 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 4200 4450 60  0001 C CNN
 F 3 "" H 4200 4450 60  0000 C CNN
 	1    4200 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K15
+L keebio:MX-with-LED K15
 U 1 1 5A743DA6
 P 5100 4450
 F 0 "K15" H 5050 4450 60  0000 C CNN
 F 1 "KEYSW" H 5100 4350 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 5100 4450 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 5100 4450 60  0001 C CNN
 F 3 "" H 5100 4450 60  0000 C CNN
 	1    5100 4450
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K16
+L keebio:MX-with-LED K16
 U 1 1 5A743E25
 P 5950 4450
 F 0 "K16" H 5900 4450 60  0000 C CNN
 F 1 "KEYSW" H 5950 4350 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 5950 4450 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 5950 4450 60  0001 C CNN
 F 3 "" H 5950 4450 60  0000 C CNN
 	1    5950 4450
 	-1   0    0    -1  
@@ -215,133 +215,133 @@ $EndComp
 $Comp
 L alpha_pro_micro-rescue:D-RESCUE-alpha_pro_micro D21
 U 1 1 5A74B445
-P 1400 5450
-F 0 "D21" V 1250 5400 60  0000 C CNN
-F 1 "D" V 1550 5400 60  0001 C CNN
-F 2 "combodiode:ComboDiode" H 1400 5450 60  0001 C CNN
-F 3 "" H 1400 5450 60  0000 C CNN
-	1    1400 5450
+P 1400 5800
+F 0 "D21" V 1250 5750 60  0000 C CNN
+F 1 "D" V 1550 5750 60  0001 C CNN
+F 2 "combodiode:ComboDiode" H 1400 5800 60  0001 C CNN
+F 3 "" H 1400 5800 60  0000 C CNN
+	1    1400 5800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K21
+L keebio:MX-with-LED K21
 U 1 1 5A74B4D4
-P 1800 5150
-F 0 "K21" H 1750 5150 60  0000 C CNN
-F 1 "KEYSW" H 1800 5050 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 1800 5150 60  0001 C CNN
-F 3 "" H 1800 5150 60  0000 C CNN
-	1    1800 5150
+P 1800 5500
+F 0 "K21" H 1750 5500 60  0000 C CNN
+F 1 "KEYSW" H 1800 5400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 1800 5500 60  0001 C CNN
+F 3 "" H 1800 5500 60  0000 C CNN
+	1    1800 5500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K22
+L keebio:MX-with-LED K22
 U 1 1 5A74B62E
-P 2700 5150
-F 0 "K22" H 2650 5150 60  0000 C CNN
-F 1 "KEYSW" H 2700 5050 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 2700 5150 60  0001 C CNN
-F 3 "" H 2700 5150 60  0000 C CNN
-	1    2700 5150
+P 2700 5500
+F 0 "K22" H 2650 5500 60  0000 C CNN
+F 1 "KEYSW" H 2700 5400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 2700 5500 60  0001 C CNN
+F 3 "" H 2700 5500 60  0000 C CNN
+	1    2700 5500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L alpha_pro_micro-rescue:D-RESCUE-alpha_pro_micro D22
 U 1 1 5A74B721
-P 2300 5500
-F 0 "D22" V 2150 5450 60  0000 C CNN
-F 1 "D" V 2450 5450 60  0001 C CNN
-F 2 "combodiode:ComboDiode" H 2300 5500 60  0001 C CNN
-F 3 "" H 2300 5500 60  0000 C CNN
-	1    2300 5500
+P 2300 5850
+F 0 "D22" V 2150 5800 60  0000 C CNN
+F 1 "D" V 2450 5800 60  0001 C CNN
+F 2 "combodiode:ComboDiode" H 2300 5850 60  0001 C CNN
+F 3 "" H 2300 5850 60  0000 C CNN
+	1    2300 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L alpha_pro_micro-rescue:D-RESCUE-alpha_pro_micro D23
 U 1 1 5A74B7B2
-P 3250 5500
-F 0 "D23" V 3100 5450 60  0000 C CNN
-F 1 "D" V 3400 5450 60  0001 C CNN
-F 2 "combodiode:ComboDiode" H 3250 5500 60  0001 C CNN
-F 3 "" H 3250 5500 60  0000 C CNN
-	1    3250 5500
+P 3250 5850
+F 0 "D23" V 3100 5800 60  0000 C CNN
+F 1 "D" V 3400 5800 60  0001 C CNN
+F 2 "combodiode:ComboDiode" H 3250 5850 60  0001 C CNN
+F 3 "" H 3250 5850 60  0000 C CNN
+	1    3250 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K23
+L keebio:MX-with-LED K23
 U 1 1 5A74B858
-P 3650 5150
-F 0 "K23" H 3600 5150 60  0000 C CNN
-F 1 "KEYSW" H 3650 5050 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 3650 5150 60  0001 C CNN
-F 3 "" H 3650 5150 60  0000 C CNN
-	1    3650 5150
+P 3650 5500
+F 0 "K23" H 3600 5500 60  0000 C CNN
+F 1 "KEYSW" H 3650 5400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 3650 5500 60  0001 C CNN
+F 3 "" H 3650 5500 60  0000 C CNN
+	1    3650 5500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L alpha_pro_micro-rescue:D-RESCUE-alpha_pro_micro D24
 U 1 1 5A74B996
-P 4250 5500
-F 0 "D24" V 4100 5450 60  0000 C CNN
-F 1 "D" V 4400 5450 60  0001 C CNN
-F 2 "combodiode:ComboDiode" H 4250 5500 60  0001 C CNN
-F 3 "" H 4250 5500 60  0000 C CNN
-	1    4250 5500
+P 4250 5850
+F 0 "D24" V 4100 5800 60  0000 C CNN
+F 1 "D" V 4400 5800 60  0001 C CNN
+F 2 "combodiode:ComboDiode" H 4250 5850 60  0001 C CNN
+F 3 "" H 4250 5850 60  0000 C CNN
+	1    4250 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K24
+L keebio:MX-with-LED K24
 U 1 1 5A74BA93
-P 4700 5150
-F 0 "K24" H 4650 5150 60  0000 C CNN
-F 1 "KEYSW" H 4700 5050 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 4700 5150 60  0001 C CNN
-F 3 "" H 4700 5150 60  0000 C CNN
-	1    4700 5150
+P 4700 5500
+F 0 "K24" H 4650 5500 60  0000 C CNN
+F 1 "KEYSW" H 4700 5400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 4700 5500 60  0001 C CNN
+F 3 "" H 4700 5500 60  0000 C CNN
+	1    4700 5500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K25
+L keebio:MX-with-LED K25
 U 1 1 5A74BB37
-P 5950 5150
-F 0 "K25" H 5900 5150 60  0000 C CNN
-F 1 "KEYSW" H 5950 5050 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-2U-StabFlip" H 5950 5150 60  0001 C CNN
-F 3 "" H 5950 5150 60  0000 C CNN
-	1    5950 5150
+P 5950 5500
+F 0 "K25" H 5900 5500 60  0000 C CNN
+F 1 "KEYSW" H 5950 5400 60  0001 C CNN
+F 2 "keebio-parts:MX-Alps-Choc-2U-StabFlip" H 5950 5500 60  0001 C CNN
+F 3 "" H 5950 5500 60  0000 C CNN
+	1    5950 5500
 	1    0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K27
+L keebio:MX-with-LED K27
 U 1 1 5A74BBF1
-P 8550 5150
-F 0 "K27" H 8500 5150 60  0000 C CNN
-F 1 "KEYSW" H 8550 5050 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 8550 5150 60  0001 C CNN
-F 3 "" H 8550 5150 60  0000 C CNN
-	1    8550 5150
+P 8550 5500
+F 0 "K27" H 8500 5500 60  0000 C CNN
+F 1 "KEYSW" H 8550 5400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 8550 5500 60  0001 C CNN
+F 3 "" H 8550 5500 60  0000 C CNN
+	1    8550 5500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L alpha_pro_micro-rescue:D-RESCUE-alpha_pro_micro D25
 U 1 1 5A74BFB7
-P 5550 5500
-F 0 "D25" V 5400 5450 60  0000 C CNN
-F 1 "D" V 5700 5450 60  0001 C CNN
-F 2 "combodiode:ComboDiode" H 5550 5500 60  0001 C CNN
-F 3 "" H 5550 5500 60  0000 C CNN
-	1    5550 5500
+P 5550 5850
+F 0 "D25" V 5400 5800 60  0000 C CNN
+F 1 "D" V 5700 5800 60  0001 C CNN
+F 2 "combodiode:ComboDiode" H 5550 5850 60  0001 C CNN
+F 3 "" H 5550 5850 60  0000 C CNN
+	1    5550 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
 L alpha_pro_micro-rescue:D-RESCUE-alpha_pro_micro D27
 U 1 1 5A74C060
-P 8150 5500
-F 0 "D27" V 8000 5450 60  0000 C CNN
-F 1 "D" V 8300 5450 60  0001 C CNN
-F 2 "combodiode:ComboDiode" H 8150 5500 60  0001 C CNN
-F 3 "" H 8150 5500 60  0000 C CNN
-	1    8150 5500
+P 8150 5850
+F 0 "D27" V 8000 5800 60  0000 C CNN
+F 1 "D" V 8300 5800 60  0001 C CNN
+F 2 "combodiode:ComboDiode" H 8150 5850 60  0001 C CNN
+F 3 "" H 8150 5850 60  0000 C CNN
+	1    8150 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -378,23 +378,23 @@ F 3 "" H 8600 3900 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K9
+L keebio:MX-with-LED K9
 U 1 1 5A74D94C
 P 9100 3700
 F 0 "K9" H 9050 3700 60  0000 C CNN
 F 1 "KEYSW" H 9100 3600 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 9100 3700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 9100 3700 60  0001 C CNN
 F 3 "" H 9100 3700 60  0000 C CNN
 	1    9100 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K10
+L keebio:MX-with-LED K10
 U 1 1 5A74E40B
 P 10050 3700
 F 0 "K10" H 10000 3700 60  0000 C CNN
 F 1 "KEYSW" H 10050 3600 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 10050 3700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 10050 3700 60  0001 C CNN
 F 3 "" H 10050 3700 60  0000 C CNN
 	1    10050 3700
 	-1   0    0    -1  
@@ -411,12 +411,12 @@ F 3 "" H 9600 3900 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K17
+L keebio:MX-with-LED K17
 U 1 1 5A74EB74
 P 7150 4500
 F 0 "K17" H 7100 4500 60  0000 C CNN
 F 1 "KEYSW" H 7150 4400 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 7150 4500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 7150 4500 60  0001 C CNN
 F 3 "" H 7150 4500 60  0000 C CNN
 	1    7150 4500
 	-1   0    0    -1  
@@ -433,12 +433,12 @@ F 3 "" H 6650 4700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K18
+L keebio:MX-with-LED K18
 U 1 1 5A74EB82
 P 8100 4500
 F 0 "K18" H 8050 4500 60  0000 C CNN
 F 1 "KEYSW" H 8100 4400 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 8100 4500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 8100 4500 60  0001 C CNN
 F 3 "" H 8100 4500 60  0000 C CNN
 	1    8100 4500
 	-1   0    0    -1  
@@ -466,23 +466,23 @@ F 3 "" H 8600 4700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K19
+L keebio:MX-with-LED K19
 U 1 1 5A74EB96
 P 9100 4500
 F 0 "K19" H 9050 4500 60  0000 C CNN
 F 1 "KEYSW" H 9100 4400 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 9100 4500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 9100 4500 60  0001 C CNN
 F 3 "" H 9100 4500 60  0000 C CNN
 	1    9100 4500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K20
+L keebio:MX-with-LED K20
 U 1 1 5A74EB9E
 P 10050 4500
 F 0 "K20" H 10000 4500 60  0000 C CNN
 F 1 "KEYSW" H 10050 4400 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 10050 4500 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 10050 4500 60  0001 C CNN
 F 3 "" H 10050 4500 60  0000 C CNN
 	1    10050 4500
 	-1   0    0    -1  
@@ -499,47 +499,47 @@ F 3 "" H 9600 4700 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K26
+L keebio:MX-with-LED K26
 U 1 1 5A750AE6
-P 7450 5150
-F 0 "K26" H 7400 5150 60  0000 C CNN
-F 1 "KEYSW" H 7450 5050 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 7450 5150 60  0001 C CNN
-F 3 "" H 7450 5150 60  0000 C CNN
-	1    7450 5150
+P 7450 5500
+F 0 "K26" H 7400 5500 60  0000 C CNN
+F 1 "KEYSW" H 7450 5400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 7450 5500 60  0001 C CNN
+F 3 "" H 7450 5500 60  0000 C CNN
+	1    7450 5500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L alpha_pro_micro-rescue:D-RESCUE-alpha_pro_micro D26
 U 1 1 5A750AEC
-P 7050 5500
-F 0 "D26" V 6900 5450 60  0000 C CNN
-F 1 "D" V 7200 5450 60  0001 C CNN
-F 2 "combodiode:ComboDiode" H 7050 5500 60  0001 C CNN
-F 3 "" H 7050 5500 60  0000 C CNN
-	1    7050 5500
+P 7050 5850
+F 0 "D26" V 6900 5800 60  0000 C CNN
+F 1 "D" V 7200 5800 60  0001 C CNN
+F 2 "combodiode:ComboDiode" H 7050 5850 60  0001 C CNN
+F 3 "" H 7050 5850 60  0000 C CNN
+	1    7050 5850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K28
+L keebio:MX-with-LED K28
 U 1 1 5A7510F5
-P 9550 5150
-F 0 "K28" H 9500 5150 60  0000 C CNN
-F 1 "KEYSW" H 9550 5050 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 9550 5150 60  0001 C CNN
-F 3 "" H 9550 5150 60  0000 C CNN
-	1    9550 5150
+P 9550 5500
+F 0 "K28" H 9500 5500 60  0000 C CNN
+F 1 "KEYSW" H 9550 5400 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 9550 5500 60  0001 C CNN
+F 3 "" H 9550 5500 60  0000 C CNN
+	1    9550 5500
 	-1   0    0    -1  
 $EndComp
 $Comp
 L alpha_pro_micro-rescue:D-RESCUE-alpha_pro_micro D28
 U 1 1 5A7511DF
-P 9150 5500
-F 0 "D28" V 9000 5450 60  0000 C CNN
-F 1 "D" V 9300 5450 60  0001 C CNN
-F 2 "combodiode:ComboDiode" H 9150 5500 60  0001 C CNN
-F 3 "" H 9150 5500 60  0000 C CNN
-	1    9150 5500
+P 9150 5850
+F 0 "D28" V 9000 5800 60  0000 C CNN
+F 1 "D" V 9300 5800 60  0001 C CNN
+F 2 "combodiode:ComboDiode" H 9150 5850 60  0001 C CNN
+F 3 "" H 9150 5850 60  0000 C CNN
+	1    9150 5850
 	0    -1   -1   0   
 $EndComp
 Text Label 1600 3600 1    60   ~ 0
@@ -566,7 +566,7 @@ Text Label 700  4200 2    60   ~ 0
 row0
 Text Label 700  4950 2    60   ~ 0
 row1
-Text Label 1200 5750 2    60   ~ 0
+Text Label 1200 6100 2    60   ~ 0
 row2
 $Comp
 L alpha_pro_micro-rescue:ProMicro U1
@@ -580,18 +580,6 @@ F 3 "" H 4800 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1850 3650 1750 3650
-Wire Wire Line
-	950  3650 850  3650
-Wire Wire Line
-	2850 3650 2700 3650
-Wire Wire Line
-	900  4400 850  4400
-Wire Wire Line
-	1850 4400 1750 4400
-Wire Wire Line
-	2800 4450 2700 4450
-Wire Wire Line
 	850  4050 850  4200
 Wire Wire Line
 	700  4200 850  4200
@@ -600,8 +588,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 4200 2700 4050
 Connection ~ 1750 4200
-Wire Wire Line
-	1600 4400 1500 4400
 Wire Wire Line
 	850  4800 850  4950
 Wire Wire Line
@@ -612,16 +598,8 @@ Wire Wire Line
 	2700 4950 2700 4800
 Connection ~ 1750 4950
 Wire Wire Line
-	5650 4450 5550 4450
-Wire Wire Line
-	4800 4450 4700 4450
-Wire Wire Line
-	3900 4450 3700 4450
-Wire Wire Line
 	3700 4200 3700 4050
 Connection ~ 2700 4200
-Wire Wire Line
-	3700 3650 3900 3650
 Wire Wire Line
 	3700 4950 3700 4800
 Connection ~ 2700 4950
@@ -638,32 +616,12 @@ Wire Wire Line
 	5600 4200 5600 4050
 Connection ~ 4700 4200
 Wire Wire Line
-	1500 5150 1400 5150
+	1400 5950 1400 6100
 Wire Wire Line
-	1400 5600 1400 5750
+	1200 6100 1400 6100
 Wire Wire Line
-	1200 5750 1400 5750
-Wire Wire Line
-	2300 5750 2300 5650
-Wire Wire Line
-	3250 5750 3250 5650
-Connection ~ 2300 5750
-Wire Wire Line
-	4250 5750 4250 5650
-Connection ~ 3250 5750
-Connection ~ 4250 5750
-Wire Wire Line
-	7050 5750 7050 5650
-Wire Wire Line
-	3350 5150 3250 5150
-Wire Wire Line
-	2400 5150 2300 5150
-Wire Wire Line
-	4400 5150 4250 5150
-Wire Wire Line
-	5650 5150 5550 5150
-Wire Wire Line
-	8250 5150 8150 5150
+	3250 6100 3250 6000
+Connection ~ 3250 6100
 Wire Wire Line
 	6650 4950 6650 4850
 Connection ~ 5550 4950
@@ -677,16 +635,6 @@ Wire Wire Line
 	9600 4950 9600 4850
 Connection ~ 8600 4950
 Wire Wire Line
-	7150 5150 7050 5150
-Wire Wire Line
-	8150 5750 8150 5650
-Connection ~ 7050 5750
-Wire Wire Line
-	9250 5150 9150 5150
-Wire Wire Line
-	9150 5750 9150 5650
-Connection ~ 8150 5750
-Wire Wire Line
 	6650 4200 6650 4050
 Connection ~ 5600 4200
 Wire Wire Line
@@ -699,97 +647,38 @@ Wire Wire Line
 	9600 4200 9600 4050
 Connection ~ 8600 4200
 Wire Wire Line
-	10350 3700 10450 3700
-Wire Wire Line
 	10450 3600 10450 3700
 Wire Wire Line
-	10450 4500 10350 4500
-Wire Wire Line
-	9400 3700 9500 3700
-Wire Wire Line
 	9500 3600 9500 3700
-Wire Wire Line
-	9500 4500 9400 4500
-Wire Wire Line
-	8400 3700 8500 3700
-Wire Wire Line
-	8500 4500 8400 4500
-Wire Wire Line
-	7450 3700 7550 3700
-Wire Wire Line
-	1550 3650 1600 3650
 Wire Wire Line
 	1600 3600 1600 3650
 Wire Wire Line
 	1600 5050 2150 5050
-Wire Wire Line
-	2150 5050 2150 5150
-Wire Wire Line
-	2150 5150 2100 5150
 Connection ~ 1600 4400
-Wire Wire Line
-	5550 5650 5550 5750
-Connection ~ 5550 5750
-Wire Wire Line
-	2450 3650 2500 3650
 Wire Wire Line
 	2500 3550 2500 3650
 Wire Wire Line
-	2500 4400 2450 4400
-Wire Wire Line
 	2500 5050 3050 5050
-Wire Wire Line
-	3050 5050 3050 5150
-Wire Wire Line
-	3050 5150 3000 5150
 Connection ~ 2500 4400
-Wire Wire Line
-	3450 3650 3500 3650
 Wire Wire Line
 	3500 5100 4000 5100
 Wire Wire Line
-	4000 5100 4000 5150
-Wire Wire Line
-	4000 5150 3950 5150
-Wire Wire Line
-	4500 3650 4550 3650
-Wire Wire Line
 	4550 3550 4550 3650
 Wire Wire Line
-	4550 4450 4500 4450
-Wire Wire Line
 	4550 5100 5050 5100
-Wire Wire Line
-	5050 5100 5050 5150
-Wire Wire Line
-	5050 5150 5000 5150
 Connection ~ 4550 4450
-Wire Wire Line
-	5450 3700 5500 3700
 Wire Wire Line
 	5500 3550 5500 3700
 Wire Wire Line
-	6400 3700 6450 3700
-Wire Wire Line
 	6450 3600 6450 3700
-Wire Wire Line
-	6450 5150 6250 5150
-Connection ~ 6450 4450
 Wire Wire Line
 	8500 3600 8500 3700
 Wire Wire Line
 	8500 5050 7750 5050
-Wire Wire Line
-	7750 5050 7750 5150
 Connection ~ 8500 4500
-Wire Wire Line
-	8850 5150 8850 5050
 Wire Wire Line
 	8850 5050 9500 5050
 Connection ~ 9500 4500
-Wire Wire Line
-	10450 5150 9850 5150
-Connection ~ 10450 4500
 Connection ~ 1600 3650
 Connection ~ 10450 3700
 Connection ~ 9500 3700
@@ -797,7 +686,7 @@ Connection ~ 5500 3700
 Connection ~ 6450 3700
 Connection ~ 4550 3650
 Connection ~ 2500 3650
-Connection ~ 1400 5750
+Connection ~ 1400 6100
 Connection ~ 850  4950
 Connection ~ 850  4200
 Wire Wire Line
@@ -817,35 +706,23 @@ Wire Wire Line
 Wire Wire Line
 	3700 4450 3700 4500
 Wire Wire Line
-	1400 5150 1400 5300
+	1400 5500 1400 5650
 Wire Wire Line
-	2300 5150 2300 5350
+	2300 5500 2300 5700
 Wire Wire Line
-	3250 5150 3250 5350
+	3250 5500 3250 5700
 Wire Wire Line
-	4250 5150 4250 5350
-Wire Wire Line
-	4850 3700 4700 3700
+	4250 5500 4250 5700
 Wire Wire Line
 	4700 3700 4700 3750
 Wire Wire Line
-	5800 3700 5600 3700
-Wire Wire Line
 	5600 3700 5600 3750
-Wire Wire Line
-	6850 3700 6650 3700
 Wire Wire Line
 	6650 3700 6650 3750
 Wire Wire Line
 	7650 3750 7650 3700
 Wire Wire Line
-	7650 3700 7800 3700
-Wire Wire Line
 	8600 3750 8600 3700
-Wire Wire Line
-	8600 3700 8800 3700
-Wire Wire Line
-	9750 3700 9600 3700
 Wire Wire Line
 	9600 3700 9600 3750
 Wire Wire Line
@@ -855,27 +732,19 @@ Wire Wire Line
 Wire Wire Line
 	6650 4550 6650 4500
 Wire Wire Line
-	6650 4500 6850 4500
-Wire Wire Line
 	7650 4550 7650 4500
-Wire Wire Line
-	7650 4500 7800 4500
-Wire Wire Line
-	8800 4500 8600 4500
 Wire Wire Line
 	8600 4500 8600 4550
 Wire Wire Line
 	9600 4550 9600 4500
 Wire Wire Line
-	9600 4500 9750 4500
+	5550 5500 5550 5700
 Wire Wire Line
-	5550 5150 5550 5350
+	7050 5500 7050 5700
 Wire Wire Line
-	7050 5150 7050 5350
+	8150 5500 8150 5700
 Wire Wire Line
-	8150 5150 8150 5350
-Wire Wire Line
-	9150 5150 9150 5350
+	9150 5500 9150 5700
 $Comp
 L power:VCC #PWR01
 U 1 1 5AA2D15E
@@ -1037,12 +906,6 @@ Wire Wire Line
 Wire Wire Line
 	4700 4200 5600 4200
 Wire Wire Line
-	2300 5750 3250 5750
-Wire Wire Line
-	3250 5750 4250 5750
-Wire Wire Line
-	4250 5750 5550 5750
-Wire Wire Line
 	5550 4950 6650 4950
 Wire Wire Line
 	6650 4950 7650 4950
@@ -1050,10 +913,6 @@ Wire Wire Line
 	7650 4950 8600 4950
 Wire Wire Line
 	8600 4950 9600 4950
-Wire Wire Line
-	7050 5750 8150 5750
-Wire Wire Line
-	8150 5750 9150 5750
 Wire Wire Line
 	5600 4200 6650 4200
 Wire Wire Line
@@ -1065,21 +924,15 @@ Wire Wire Line
 Wire Wire Line
 	1600 4400 1600 5050
 Wire Wire Line
-	5550 5750 7050 5750
-Wire Wire Line
 	2500 4400 2500 5050
 Wire Wire Line
 	3500 4450 3500 5100
 Wire Wire Line
 	4550 4450 4550 5100
 Wire Wire Line
-	6450 4450 6450 5150
-Wire Wire Line
 	8500 4500 8500 5050
 Wire Wire Line
 	9500 4500 9500 5050
-Wire Wire Line
-	10450 4500 10450 5150
 Wire Wire Line
 	1600 3650 1600 4400
 Wire Wire Line
@@ -1095,105 +948,95 @@ Wire Wire Line
 Wire Wire Line
 	2500 3650 2500 4400
 Wire Wire Line
-	1400 5750 2300 5750
-Wire Wire Line
 	850  4950 1750 4950
 Wire Wire Line
 	850  4200 1750 4200
 Wire Wire Line
 	8500 3700 8500 4500
-Wire Wire Line
-	3400 4450 3500 4450
-Wire Wire Line
-	6250 4450 6450 4450
-Wire Wire Line
-	5400 4450 5500 4450
-Wire Wire Line
-	7450 4500 7550 4500
 $Comp
-L alpha_pro_micro-rescue:KEYSW K8
+L keebio:MX-with-LED K8
 U 1 1 5A74D127
 P 8100 3700
 F 0 "K8" H 8050 3700 60  0000 C CNN
 F 1 "KEYSW" H 8100 3600 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 8100 3700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 8100 3700 60  0001 C CNN
 F 3 "" H 8100 3700 60  0000 C CNN
 	1    8100 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K7
+L keebio:MX-with-LED K7
 U 1 1 5A74CEE1
 P 7150 3700
 F 0 "K7" H 7100 3700 60  0000 C CNN
 F 1 "KEYSW" H 7150 3600 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 7150 3700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 7150 3700 60  0001 C CNN
 F 3 "" H 7150 3700 60  0000 C CNN
 	1    7150 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K6
+L keebio:MX-with-LED K6
 U 1 1 5A744689
 P 6100 3700
 F 0 "K6" H 6050 3700 60  0000 C CNN
 F 1 "KEYSW" H 6100 3600 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 6100 3700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 6100 3700 60  0001 C CNN
 F 3 "" H 6100 3700 60  0000 C CNN
 	1    6100 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K5
+L keebio:MX-with-LED K5
 U 1 1 5A7444F7
 P 5150 3700
 F 0 "K5" H 5100 3700 60  0000 C CNN
 F 1 "KEYSW" H 5150 3600 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 5150 3700 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 5150 3700 60  0001 C CNN
 F 3 "" H 5150 3700 60  0000 C CNN
 	1    5150 3700
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K4
+L keebio:MX-with-LED K4
 U 1 1 5A743B5C
 P 4200 3650
 F 0 "K4" H 4150 3650 60  0000 C CNN
 F 1 "KEYSW" H 4200 3550 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 4200 3650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 4200 3650 60  0001 C CNN
 F 3 "" H 4200 3650 60  0000 C CNN
 	1    4200 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K3
+L keebio:MX-with-LED K3
 U 1 1 5A74310D
 P 3150 3650
 F 0 "K3" H 3100 3650 60  0000 C CNN
 F 1 "KEYSW" H 3150 3550 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 3150 3650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 3150 3650 60  0001 C CNN
 F 3 "" H 3150 3650 60  0000 C CNN
 	1    3150 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K2
+L keebio:MX-with-LED K2
 U 1 1 5A7429AE
 P 2150 3650
 F 0 "K2" H 2100 3650 60  0000 C CNN
 F 1 "KEYSW" H 2150 3550 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 2150 3650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 2150 3650 60  0001 C CNN
 F 3 "" H 2150 3650 60  0000 C CNN
 	1    2150 3650
 	-1   0    0    -1  
 $EndComp
 $Comp
-L alpha_pro_micro-rescue:KEYSW K1
+L keebio:MX-with-LED K1
 U 1 1 5A742C89
 P 1250 3650
 F 0 "K1" H 1200 3650 60  0000 C CNN
 F 1 "KEYSW" H 1250 3550 60  0001 C CNN
-F 2 "keebio-parts:MX-Alps-Choc-1U-NoLED" H 1250 3650 60  0001 C CNN
+F 2 "MX_Alps_Hybrid:MXOnly-1U" H 1250 3650 60  0001 C CNN
 F 3 "" H 1250 3650 60  0000 C CNN
 	1    1250 3650
 	-1   0    0    -1  
@@ -1239,110 +1082,904 @@ Text GLabel 6350 1875 0    50   Input ~ 0
 RGB
 Text GLabel 5400 1850 2    50   Input ~ 0
 RGB
-$Comp
-L Connector:Conn_01x01_Female J2
-U 1 1 5CC5F73A
-P 8700 2050
-F 0 "J2" H 8592 1825 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8592 1916 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8700 2050 50  0001 C CNN
-F 3 "~" H 8700 2050 50  0001 C CNN
-	1    8700 2050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J4
-U 1 1 5CC5FD0E
-P 8700 2300
-F 0 "J4" H 8592 2075 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8592 2166 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8700 2300 50  0001 C CNN
-F 3 "~" H 8700 2300 50  0001 C CNN
-	1    8700 2300
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J6
-U 1 1 5CC60365
-P 8700 2550
-F 0 "J6" H 8592 2325 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8592 2416 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8700 2550 50  0001 C CNN
-F 3 "~" H 8700 2550 50  0001 C CNN
-	1    8700 2550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J8
-U 1 1 5CC607D9
-P 8700 2800
-F 0 "J8" H 8592 2575 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 8592 2666 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 8700 2800 50  0001 C CNN
-F 3 "~" H 8700 2800 50  0001 C CNN
-	1    8700 2800
-	-1   0    0    1   
-$EndComp
-Text Label 9150 2050 2    60   ~ 0
-row0
-Text Label 9150 2300 2    60   ~ 0
-row1
-Text Label 9150 2550 2    60   ~ 0
-row2
-Text Label 9150 2800 2    50   ~ 0
-col_tmo
-$Comp
-L Connector:Conn_01x01_Female J9
-U 1 1 5CC8D43F
-P 9600 2800
-F 0 "J9" H 9492 2575 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 9492 2666 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 2800 50  0001 C CNN
-F 3 "~" H 9600 2800 50  0001 C CNN
-	1    9600 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J7
-U 1 1 5CC8D449
-P 9600 2550
-F 0 "J7" H 9492 2325 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 9492 2416 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 2550 50  0001 C CNN
-F 3 "~" H 9600 2550 50  0001 C CNN
-	1    9600 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J5
-U 1 1 5CC8D453
-P 9600 2300
-F 0 "J5" H 9492 2075 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 9492 2166 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 2300 50  0001 C CNN
-F 3 "~" H 9600 2300 50  0001 C CNN
-	1    9600 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_01x01_Female J3
-U 1 1 5CC8D45D
-P 9600 2050
-F 0 "J3" H 9492 1825 50  0000 C CNN
-F 1 "Conn_01x01_Female" H 9492 1916 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9600 2050 50  0001 C CNN
-F 3 "~" H 9600 2050 50  0001 C CNN
-	1    9600 2050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9400 2050 8900 2050
-Wire Wire Line
-	8900 2300 9400 2300
-Wire Wire Line
-	8900 2550 9400 2550
-Wire Wire Line
-	8900 2800 9400 2800
 Text Label 4000 1850 2    50   ~ 0
 col_tmo
+Wire Wire Line
+	2000 5500 2150 5500
+Wire Wire Line
+	1400 5500 1600 5500
+Wire Wire Line
+	2300 5500 2500 5500
+Wire Wire Line
+	2900 5500 3050 5500
+Wire Wire Line
+	3250 5500 3450 5500
+Wire Wire Line
+	3850 5500 4000 5500
+Wire Wire Line
+	850  4400 1000 4400
+Wire Wire Line
+	1400 4400 1600 4400
+Wire Wire Line
+	1750 4400 1950 4400
+Wire Wire Line
+	2350 4400 2500 4400
+Wire Wire Line
+	2700 4450 2900 4450
+Wire Wire Line
+	3300 4450 3500 4450
+Wire Wire Line
+	850  3650 1050 3650
+Wire Wire Line
+	1450 3650 1600 3650
+Wire Wire Line
+	1750 3650 1950 3650
+Wire Wire Line
+	2350 3650 2500 3650
+Wire Wire Line
+	2700 3650 2950 3650
+Wire Wire Line
+	3350 3650 3500 3650
+Wire Wire Line
+	3700 3650 4000 3650
+Wire Wire Line
+	4400 3650 4550 3650
+Wire Wire Line
+	6300 3700 6450 3700
+Wire Wire Line
+	5600 3700 5900 3700
+Wire Wire Line
+	6650 3700 6950 3700
+Wire Wire Line
+	7350 3700 7550 3700
+Wire Wire Line
+	7650 3700 7900 3700
+Wire Wire Line
+	8300 3700 8500 3700
+Wire Wire Line
+	8600 3700 8900 3700
+Wire Wire Line
+	9300 3700 9500 3700
+Wire Wire Line
+	9600 3700 9850 3700
+Wire Wire Line
+	10250 3700 10450 3700
+Wire Wire Line
+	10250 4500 10450 4500
+Wire Wire Line
+	9600 4500 9850 4500
+Wire Wire Line
+	9300 4500 9500 4500
+Wire Wire Line
+	8600 4500 8900 4500
+Wire Wire Line
+	8300 4500 8500 4500
+Wire Wire Line
+	7650 4500 7900 4500
+Wire Wire Line
+	7650 5500 7750 5500
+Wire Wire Line
+	7050 5500 7250 5500
+Wire Wire Line
+	8150 5500 8350 5500
+Wire Wire Line
+	8850 5500 8750 5500
+Wire Wire Line
+	9150 5500 9350 5500
+Wire Wire Line
+	9750 5500 10450 5500
+Wire Wire Line
+	7350 4500 7550 4500
+Wire Wire Line
+	6650 4500 6950 4500
+Wire Wire Line
+	6150 5500 6450 5500
+Wire Wire Line
+	5550 5500 5750 5500
+Wire Wire Line
+	4900 5500 5050 5500
+Wire Wire Line
+	4250 5500 4500 5500
+Wire Wire Line
+	5300 4450 5500 4450
+Wire Wire Line
+	5550 4450 5750 4450
+Wire Wire Line
+	6150 4450 6450 4450
+Wire Wire Line
+	4700 4450 4900 4450
+Wire Wire Line
+	4400 4450 4550 4450
+Wire Wire Line
+	3700 4450 4000 4450
+Wire Wire Line
+	6300 3850 6300 4000
+Wire Wire Line
+	6300 4000 7350 4000
+Wire Wire Line
+	7350 4000 7350 3850
+Wire Wire Line
+	7350 4000 8300 4000
+Wire Wire Line
+	8300 4000 8300 3850
+Connection ~ 7350 4000
+Wire Wire Line
+	8300 4000 9300 4000
+Wire Wire Line
+	9300 4000 9300 3850
+Connection ~ 8300 4000
+Wire Wire Line
+	9300 4000 10250 4000
+Wire Wire Line
+	10250 4000 10250 3850
+Connection ~ 9300 4000
+Wire Wire Line
+	6300 4000 5350 4000
+Wire Wire Line
+	5350 4000 5350 3850
+Connection ~ 6300 4000
+Wire Wire Line
+	5350 4000 4400 4000
+Wire Wire Line
+	4400 4000 4400 3800
+Connection ~ 5350 4000
+Wire Wire Line
+	4400 4000 3350 4000
+Wire Wire Line
+	3350 4000 3350 3800
+Connection ~ 4400 4000
+Wire Wire Line
+	3350 4000 2350 4000
+Wire Wire Line
+	2350 4000 2350 3800
+Connection ~ 3350 4000
+Wire Wire Line
+	1450 3800 1450 4000
+Wire Wire Line
+	1450 4000 2350 4000
+Connection ~ 2350 4000
+Wire Wire Line
+	1400 4550 1400 4750
+Wire Wire Line
+	1400 4750 2350 4750
+Wire Wire Line
+	2350 4750 2350 4550
+Wire Wire Line
+	2350 4750 3300 4750
+Wire Wire Line
+	3300 4750 3300 4600
+Connection ~ 2350 4750
+Wire Wire Line
+	3300 4750 4400 4750
+Wire Wire Line
+	4400 4750 4400 4600
+Connection ~ 3300 4750
+Wire Wire Line
+	4400 4750 5300 4750
+Wire Wire Line
+	5300 4750 5300 4600
+Connection ~ 4400 4750
+Wire Wire Line
+	5300 4750 6150 4750
+Wire Wire Line
+	6150 4750 6150 4600
+Connection ~ 5300 4750
+Wire Wire Line
+	6150 4750 7350 4750
+Wire Wire Line
+	7350 4750 7350 4650
+Connection ~ 6150 4750
+Wire Wire Line
+	7350 4750 8300 4750
+Wire Wire Line
+	8300 4750 8300 4650
+Connection ~ 7350 4750
+Wire Wire Line
+	8300 4750 9300 4750
+Wire Wire Line
+	9300 4750 9300 4650
+Connection ~ 8300 4750
+Wire Wire Line
+	8750 5950 7650 5950
+Wire Wire Line
+	7650 5950 7650 5650
+Wire Wire Line
+	8750 5650 8750 5950
+Wire Wire Line
+	7650 5950 5750 5950
+Wire Wire Line
+	5750 5950 5750 5650
+Connection ~ 7650 5950
+Wire Wire Line
+	5750 5950 4900 5950
+Wire Wire Line
+	4900 5950 4900 5650
+Connection ~ 5750 5950
+Wire Wire Line
+	4900 5950 3850 5950
+Wire Wire Line
+	3850 5950 3850 5650
+Connection ~ 4900 5950
+Wire Wire Line
+	3850 5950 2900 5950
+Wire Wire Line
+	2900 5950 2900 5650
+Connection ~ 3850 5950
+Wire Wire Line
+	2900 5950 2000 5950
+Wire Wire Line
+	2000 5950 2000 5650
+Connection ~ 2900 5950
+Wire Wire Line
+	8750 5950 9750 5950
+Connection ~ 8750 5950
+Wire Wire Line
+	9300 4750 10250 4750
+Connection ~ 9300 4750
+Connection ~ 10250 4750
+Wire Wire Line
+	10250 4750 10250 4650
+Wire Wire Line
+	10250 4750 10350 4750
+Wire Wire Line
+	10350 4750 10350 4000
+Wire Wire Line
+	10350 4000 10250 4000
+Connection ~ 10250 4000
+Text Label 10450 5950 0    50   ~ 0
+VCC
+Wire Wire Line
+	10450 5950 10250 5950
+Connection ~ 10250 5950
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R3
+U 1 1 5DB81F2F
+P 1600 5800
+F 0 "R3" V 1642 5752 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 1558 5752 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 1600 5800 40  0001 C CNN
+F 3 "" H 1600 5800 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 1630 5950 20  0001 C CNN "MPN"
+F 5 "301010306" H 1630 5950 20  0001 C CNN "SKU"
+	1    1600 5800
+	0    -1   -1   0   
+$EndComp
+Text Label 1550 6350 2    50   ~ 0
+LED_Out
+Wire Wire Line
+	1600 6350 1550 6350
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R6
+U 1 1 5DBA68A3
+P 2500 5850
+F 0 "R6" V 2542 5802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 2458 5802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 2500 5850 40  0001 C CNN
+F 3 "" H 2500 5850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 2530 6000 20  0001 C CNN "MPN"
+F 5 "301010306" H 2530 6000 20  0001 C CNN "SKU"
+	1    2500 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R9
+U 1 1 5DBB897B
+P 3450 5850
+F 0 "R9" V 3492 5802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 3408 5802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 3450 5850 40  0001 C CNN
+F 3 "" H 3450 5850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 3480 6000 20  0001 C CNN "MPN"
+F 5 "301010306" H 3480 6000 20  0001 C CNN "SKU"
+	1    3450 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R12
+U 1 1 5DBCAC8A
+P 4500 5850
+F 0 "R12" V 4542 5802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 4458 5802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 4500 5850 40  0001 C CNN
+F 3 "" H 4500 5850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 4530 6000 20  0001 C CNN "MPN"
+F 5 "301010306" H 4530 6000 20  0001 C CNN "SKU"
+	1    4500 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R17
+U 1 1 5DBDCD65
+P 6150 5850
+F 0 "R17" V 6192 5802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 6108 5802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 6150 5850 40  0001 C CNN
+F 3 "" H 6150 5850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 6180 6000 20  0001 C CNN "MPN"
+F 5 "301010306" H 6180 6000 20  0001 C CNN "SKU"
+	1    6150 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R20
+U 1 1 5DBEF315
+P 7250 5850
+F 0 "R20" V 7292 5802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 7208 5802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 7250 5850 40  0001 C CNN
+F 3 "" H 7250 5850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 7280 6000 20  0001 C CNN "MPN"
+F 5 "301010306" H 7280 6000 20  0001 C CNN "SKU"
+	1    7250 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R23
+U 1 1 5DC013EF
+P 8350 5850
+F 0 "R23" V 8392 5802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 8308 5802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 8350 5850 40  0001 C CNN
+F 3 "" H 8350 5850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 8380 6000 20  0001 C CNN "MPN"
+F 5 "301010306" H 8380 6000 20  0001 C CNN "SKU"
+	1    8350 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R26
+U 1 1 5DC134DE
+P 9350 5850
+F 0 "R26" V 9392 5802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 9308 5802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 9350 5850 40  0001 C CNN
+F 3 "" H 9350 5850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 9380 6000 20  0001 C CNN "MPN"
+F 5 "301010306" H 9380 6000 20  0001 C CNN "SKU"
+	1    9350 5850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R28
+U 1 1 5DC2581C
+P 9850 4800
+F 0 "R28" V 9892 4752 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 9808 4752 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 9850 4800 40  0001 C CNN
+F 3 "" H 9850 4800 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 9880 4950 20  0001 C CNN "MPN"
+F 5 "301010306" H 9880 4950 20  0001 C CNN "SKU"
+	1    9850 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2150 5050 2150 5500
+Wire Wire Line
+	3050 5050 3050 5500
+Wire Wire Line
+	4000 5100 4000 5500
+Wire Wire Line
+	5050 5100 5050 5500
+Wire Wire Line
+	6450 4450 6450 5500
+Connection ~ 6450 4450
+Wire Wire Line
+	7750 5050 7750 5500
+Wire Wire Line
+	8850 5050 8850 5500
+Wire Wire Line
+	10450 4500 10450 5500
+Connection ~ 10450 4500
+Wire Wire Line
+	10250 4750 10250 5950
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R25
+U 1 1 5DD010D8
+P 8900 4850
+F 0 "R25" V 8942 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 8858 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 8900 4850 40  0001 C CNN
+F 3 "" H 8900 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 8930 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 8930 5000 20  0001 C CNN "SKU"
+	1    8900 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R22
+U 1 1 5DD131A7
+P 7900 4850
+F 0 "R22" V 7942 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 7858 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 7900 4850 40  0001 C CNN
+F 3 "" H 7900 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 7930 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 7930 5000 20  0001 C CNN "SKU"
+	1    7900 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R19
+U 1 1 5DD25273
+P 6950 4850
+F 0 "R19" V 6992 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 6908 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 6950 4850 40  0001 C CNN
+F 3 "" H 6950 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 6980 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 6980 5000 20  0001 C CNN "SKU"
+	1    6950 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R15
+U 1 1 5DD49A3F
+P 5750 4850
+F 0 "R15" V 5792 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 5708 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 5750 4850 40  0001 C CNN
+F 3 "" H 5750 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 5780 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 5780 5000 20  0001 C CNN "SKU"
+	1    5750 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R13
+U 1 1 5DD5BB10
+P 4900 4850
+F 0 "R13" V 4942 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 4858 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 4900 4850 40  0001 C CNN
+F 3 "" H 4900 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 4930 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 4930 5000 20  0001 C CNN "SKU"
+	1    4900 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R11
+U 1 1 5DD6DBE0
+P 4000 4850
+F 0 "R11" V 4042 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 3958 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 4000 4850 40  0001 C CNN
+F 3 "" H 4000 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 4030 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 4030 5000 20  0001 C CNN "SKU"
+	1    4000 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R7
+U 1 1 5DD921EB
+P 2900 4850
+F 0 "R7" V 2942 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 2858 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 2900 4850 40  0001 C CNN
+F 3 "" H 2900 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 2930 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 2930 5000 20  0001 C CNN "SKU"
+	1    2900 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R5
+U 1 1 5DDA42B5
+P 1950 4850
+F 0 "R5" V 1992 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 1908 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 1950 4850 40  0001 C CNN
+F 3 "" H 1950 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 1980 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 1980 5000 20  0001 C CNN "SKU"
+	1    1950 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R1
+U 1 1 5DDB6383
+P 1000 4850
+F 0 "R1" V 1042 4802 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 958 4802 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 1000 4850 40  0001 C CNN
+F 3 "" H 1000 4850 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 1030 5000 20  0001 C CNN "MPN"
+F 5 "301010306" H 1030 5000 20  0001 C CNN "SKU"
+	1    1000 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R4
+U 1 1 5DDC8464
+P 1950 3950
+F 0 "R4" V 1992 3902 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 1908 3902 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 1950 3950 40  0001 C CNN
+F 3 "" H 1950 3950 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 1980 4100 20  0001 C CNN "MPN"
+F 5 "301010306" H 1980 4100 20  0001 C CNN "SKU"
+	1    1950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R2
+U 1 1 5DDDA53C
+P 1050 3950
+F 0 "R2" V 1092 3902 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 1008 3902 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 1050 3950 40  0001 C CNN
+F 3 "" H 1050 3950 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 1080 4100 20  0001 C CNN "MPN"
+F 5 "301010306" H 1080 4100 20  0001 C CNN "SKU"
+	1    1050 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R8
+U 1 1 5DDEC614
+P 2950 3950
+F 0 "R8" V 2992 3902 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 2908 3902 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 2950 3950 40  0001 C CNN
+F 3 "" H 2950 3950 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 2980 4100 20  0001 C CNN "MPN"
+F 5 "301010306" H 2980 4100 20  0001 C CNN "SKU"
+	1    2950 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R10
+U 1 1 5DDFE6ED
+P 4000 3950
+F 0 "R10" V 4042 3902 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 3958 3902 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 4000 3950 40  0001 C CNN
+F 3 "" H 4000 3950 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 4030 4100 20  0001 C CNN "MPN"
+F 5 "301010306" H 4030 4100 20  0001 C CNN "SKU"
+	1    4000 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R14
+U 1 1 5DE107C7
+P 4950 4000
+F 0 "R14" V 4992 3952 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 4908 3952 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 4950 4000 40  0001 C CNN
+F 3 "" H 4950 4000 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 4980 4150 20  0001 C CNN "MPN"
+F 5 "301010306" H 4980 4150 20  0001 C CNN "SKU"
+	1    4950 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R16
+U 1 1 5DE2289D
+P 5900 4000
+F 0 "R16" V 5942 3952 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 5858 3952 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 5900 4000 40  0001 C CNN
+F 3 "" H 5900 4000 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 5930 4150 20  0001 C CNN "MPN"
+F 5 "301010306" H 5930 4150 20  0001 C CNN "SKU"
+	1    5900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R18
+U 1 1 5DE34977
+P 6950 4000
+F 0 "R18" V 6992 3952 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 6908 3952 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 6950 4000 40  0001 C CNN
+F 3 "" H 6950 4000 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 6980 4150 20  0001 C CNN "MPN"
+F 5 "301010306" H 6980 4150 20  0001 C CNN "SKU"
+	1    6950 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R21
+U 1 1 5DE46A59
+P 7900 4000
+F 0 "R21" V 7942 3952 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 7858 3952 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 7900 4000 40  0001 C CNN
+F 3 "" H 7900 4000 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 7930 4150 20  0001 C CNN "MPN"
+F 5 "301010306" H 7930 4150 20  0001 C CNN "SKU"
+	1    7900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R24
+U 1 1 5DE5910F
+P 8900 4000
+F 0 "R24" V 8942 3952 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 8858 3952 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 8900 4000 40  0001 C CNN
+F 3 "" H 8900 4000 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 8930 4150 20  0001 C CNN "MPN"
+F 5 "301010306" H 8930 4150 20  0001 C CNN "SKU"
+	1    8900 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R27
+U 1 1 5DE6B1E1
+P 9850 4000
+F 0 "R27" V 9892 3952 45  0000 R CNN
+F 1 "SMD-RES-4.7K-5%-1_8W_0805_" V 9808 3952 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 9850 4000 40  0001 C CNN
+F 3 "" H 9850 4000 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 9880 4150 20  0001 C CNN "MPN"
+F 5 "301010306" H 9880 4150 20  0001 C CNN "SKU"
+	1    9850 4000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4700 3700 4950 3700
+Wire Wire Line
+	5350 3700 5500 3700
+Wire Wire Line
+	4950 4150 5900 4150
+Wire Wire Line
+	5900 4150 6950 4150
+Connection ~ 5900 4150
+Wire Wire Line
+	6950 4150 7900 4150
+Connection ~ 6950 4150
+Wire Wire Line
+	7900 4150 8900 4150
+Connection ~ 7900 4150
+Wire Wire Line
+	9850 4150 8900 4150
+Connection ~ 8900 4150
+Wire Wire Line
+	4950 4150 4000 4150
+Wire Wire Line
+	4000 4150 4000 4100
+Connection ~ 4950 4150
+Wire Wire Line
+	4000 4150 3350 4150
+Wire Wire Line
+	2950 4150 2950 4100
+Connection ~ 4000 4150
+Wire Wire Line
+	2950 4150 1950 4150
+Wire Wire Line
+	1950 4150 1950 4100
+Connection ~ 2950 4150
+Wire Wire Line
+	1950 4150 1050 4150
+Wire Wire Line
+	1050 4150 1050 4100
+Connection ~ 1950 4150
+Wire Wire Line
+	1000 4550 1000 4700
+Wire Wire Line
+	2000 4500 1950 4500
+Wire Wire Line
+	1950 4500 1950 4550
+Wire Wire Line
+	1950 4700 1950 4550
+Connection ~ 1950 4550
+Wire Wire Line
+	2900 4600 2900 4700
+Wire Wire Line
+	4000 4600 4000 4700
+Wire Wire Line
+	4900 4600 4900 4700
+Wire Wire Line
+	5750 4600 5750 4700
+Wire Wire Line
+	1000 5000 1950 5000
+Wire Wire Line
+	1950 5000 2200 5000
+Connection ~ 1950 5000
+Wire Wire Line
+	2900 5000 3350 5000
+Connection ~ 2900 5000
+Wire Wire Line
+	4000 5000 4900 5000
+Wire Wire Line
+	4900 5000 5750 5000
+Connection ~ 4000 5000
+Connection ~ 4900 5000
+Wire Wire Line
+	5750 5000 6950 5000
+Connection ~ 5750 5000
+Wire Wire Line
+	6950 4700 6950 4650
+Wire Wire Line
+	7900 4700 7900 4650
+Wire Wire Line
+	8900 4700 8900 4650
+Wire Wire Line
+	9850 4950 9850 5000
+Wire Wire Line
+	9850 5000 8900 5000
+Wire Wire Line
+	7900 5000 8900 5000
+Connection ~ 8900 5000
+Wire Wire Line
+	7900 5000 6950 5000
+Connection ~ 7900 5000
+Connection ~ 6950 5000
+Connection ~ 2200 5000
+Wire Wire Line
+	2200 5000 2900 5000
+Wire Wire Line
+	3350 4150 3350 5000
+Connection ~ 3350 4150
+Wire Wire Line
+	3350 4150 2950 4150
+Connection ~ 3350 5000
+Wire Wire Line
+	3350 5000 4000 5000
+Wire Wire Line
+	6150 5700 6150 5650
+Wire Wire Line
+	7250 5700 7250 5650
+Wire Wire Line
+	8350 5700 8350 5650
+Wire Wire Line
+	9350 5700 9350 5650
+Wire Wire Line
+	9750 5650 9750 5950
+Connection ~ 9750 5950
+Wire Wire Line
+	9750 5950 10250 5950
+Wire Wire Line
+	4500 5650 4500 5700
+Wire Wire Line
+	3450 5700 3450 5650
+Wire Wire Line
+	2500 5650 2500 5700
+Wire Wire Line
+	1400 6100 2300 6100
+Wire Wire Line
+	2300 6000 2300 6100
+Connection ~ 2300 6100
+Wire Wire Line
+	2300 6100 3250 6100
+Wire Wire Line
+	3250 6100 4250 6100
+Wire Wire Line
+	4250 6000 4250 6100
+Connection ~ 4250 6100
+Wire Wire Line
+	4250 6100 5550 6100
+Wire Wire Line
+	5550 6000 5550 6100
+Connection ~ 5550 6100
+Wire Wire Line
+	5550 6100 7050 6100
+Wire Wire Line
+	7050 6000 7050 6100
+Connection ~ 7050 6100
+Wire Wire Line
+	7050 6100 8150 6100
+Wire Wire Line
+	8150 6000 8150 6100
+Connection ~ 8150 6100
+Wire Wire Line
+	8150 6100 9150 6100
+Wire Wire Line
+	9150 6000 9150 6100
+Wire Wire Line
+	9350 6000 9350 6200
+Wire Wire Line
+	9350 6200 8350 6200
+Wire Wire Line
+	8350 6200 8350 6000
+Wire Wire Line
+	8350 6200 7250 6200
+Wire Wire Line
+	7250 6200 7250 6000
+Connection ~ 8350 6200
+Wire Wire Line
+	7250 6200 6150 6200
+Wire Wire Line
+	6150 6200 6150 6000
+Connection ~ 7250 6200
+Wire Wire Line
+	6150 6200 4500 6200
+Wire Wire Line
+	4500 6200 4500 6000
+Connection ~ 6150 6200
+Wire Wire Line
+	4500 6200 3450 6200
+Wire Wire Line
+	3450 6200 3450 6000
+Connection ~ 4500 6200
+Wire Wire Line
+	3450 6200 2500 6200
+Connection ~ 3450 6200
+Wire Wire Line
+	2500 6200 2200 6200
+Connection ~ 2500 6200
+Connection ~ 1600 6200
+Wire Wire Line
+	1600 6200 1600 6350
+Wire Wire Line
+	2500 6000 2500 6200
+Wire Wire Line
+	1600 5950 1600 6200
+Wire Wire Line
+	2200 5000 2200 6200
+Connection ~ 2200 6200
+Wire Wire Line
+	2200 6200 1600 6200
+$Comp
+L OPL_Discrete_Semiconductor:SMD-MOSFET-N-CH-60V-300MA-LOGIC-LEVEL-FET-2N7002_SOT-23_ Q1
+U 1 1 5D7885F1
+P 8300 2450
+F 0 "Q1" H 8415 2492 45  0000 L CNN
+F 1 "SMD-MOSFET-N-CH-60V-300MA-LOGIC-LEVEL-FET-2N7002_SOT-23_" H 8415 2408 45  0000 L CNN
+F 2 "OPL_Discrete_Semiconductor:SOT-23" H 8300 2450 50  0001 C CNN
+F 3 "" H 8300 2450 50  0001 C CNN
+F 4 "2N7002_215" H 8330 2600 20  0001 C CNN "MPN"
+F 5 "305030028" H 8330 2600 20  0001 C CNN "SKU"
+	1    8300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L OPL_Resistor:SMD-RES-4.7K-5%-1_8W_0805_ R29
+U 1 1 5D788F2E
+P 7900 2750
+F 0 "R29" V 7942 2702 45  0000 R CNN
+F 1 "SMD-RES-100K-5%-1_8W_0805_" V 7858 2702 45  0000 R CNN
+F 2 "OPL_Resistor:PR-D1.8_L3.3MM" H 7900 2750 40  0001 C CNN
+F 3 "" H 7900 2750 40  0001 C CNN
+F 4 "RC0805JR-074K7L" H 7930 2900 20  0001 C CNN "MPN"
+F 5 "301010306" H 7930 2900 20  0001 C CNN "SKU"
+	1    7900 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5D78990B
+P 7900 3050
+F 0 "#PWR0102" H 7900 2800 50  0001 C CNN
+F 1 "GND" V 7905 2922 50  0000 R CNN
+F 2 "" H 7900 3050 50  0001 C CNN
+F 3 "" H 7900 3050 50  0001 C CNN
+	1    7900 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5D789A7A
+P 8300 2950
+F 0 "#PWR0103" H 8300 2700 50  0001 C CNN
+F 1 "GND" V 8305 2822 50  0000 R CNN
+F 2 "" H 8300 2950 50  0001 C CNN
+F 3 "" H 8300 2950 50  0001 C CNN
+	1    8300 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3050 7900 2900
+Wire Wire Line
+	8300 2950 8300 2650
+Wire Wire Line
+	7900 2600 7900 2450
+Wire Wire Line
+	7900 2450 8100 2450
+Text Label 8300 2100 2    50   ~ 0
+LED_Out
+Wire Wire Line
+	8300 2100 8300 2250
+Text Label 3850 1950 2    50   ~ 0
+LED
+Wire Wire Line
+	3850 1950 4000 1950
+Text Label 7600 2450 2    50   ~ 0
+LED
+Wire Wire Line
+	7900 2450 7600 2450
+Connection ~ 7900 2450
 $EndSCHEMATC
